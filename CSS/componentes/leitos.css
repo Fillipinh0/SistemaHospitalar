@@ -1,0 +1,106 @@
+.logout {
+    margin-right: 100%;
+    color: white;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(90deg, rgba(2,0,3,1)32%, rgba(9,121,80,1)100%, rgba(0,212,255,1) 12%);
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 30px;
+        background: #1e272f;
+    }
+
+    h1 {
+        text-align: center;
+        color: #4CAF50;
+    }
+
+    .leito-status {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .leito-status div {
+        width: 48%;
+    }
+
+    .leito-status h2 {
+        color: #ffff;
+        text-align: center;
+    }
+
+    .leito-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .leito {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .leito h3 {
+        margin: 0;
+        color: #4CAF50;
+    }
+
+    .leito p {
+        margin: 5px 0;
+        color: #555;
+    }
+
+    .leito-ocupado {
+        background-color: #ffdddd;
+        margin-left: 25px;
+    }
+
+    .leito-disponivel {
+        background-color: #ddffdd;
+        margin-right: 25px;
+    }
+
+    .leito-ocupado h3 {
+        color: #ff3d3d;
+    }
+
+    .leito-disponivel h3 {
+        color: #3dff3d;
+    }
+
+    .leito-ocupado p, .leito-disponivel p {
+        font-size: 14px;
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        transform: scale(1.1);
+        background-color: #45a049;
+    }
+  
+    .btn:active{
+        transform: translate(3px, 3px);
+        transition: .4s;
+    }
