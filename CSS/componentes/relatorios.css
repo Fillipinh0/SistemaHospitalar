@@ -1,37 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container_pai {
+    width: 70%;
+    margin: auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+    background-color: #1e272f;
+
 }
 
-/* Corpo e fundo */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, rgba(2,0,3,1)32%, rgba(9,121,80,1)100%, rgba(0,212,255,1) 12%);
-    color: #333;
-    line-height: 1.6;
-    margin-top: 5vh;
-}
-
-/* Cabeçalho */
-header {
+header.cabesalho {
     background-color:rgba(2,0,36,1);
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-header h1 {
+header.cabesalho h1 {
     font-size: 2em;
 }
 
-header p {
+header.cabesalho p {
     font-size: 1.1em;
-}
-
-/* Seção dos relatórios */
-main {
-    padding: 20px;
 }
 
 .relatorios {
@@ -39,6 +26,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .relatorio {
@@ -59,22 +47,7 @@ main {
     margin-bottom: 8px;
 }
 
-/* Rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-.container_pai {
-    width: 70%;
-    margin: auto;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
-    background-color: #1e272f;
 
-}
-.logout {
+.logout_relatorios {
     margin-right: 100%;
-    color: white;
 }

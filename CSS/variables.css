@@ -3,6 +3,10 @@
     --primary_color: #067406;
     --secondary_color: rgb(105, 98, 240);
     --fundo_container: #1e272f;
-    --color-title: #333;
+    --leito_ocupado: #ffdddd;
+    --leito_livre: #ddffdd;
+    --titulo_leito_livre: #4CAF50;
+    --titulo_leito_ocupado: #ff3d3d;
+    --color-detalhes: #555;
     --color-subtile: rgb(240, 255, 248);
 }

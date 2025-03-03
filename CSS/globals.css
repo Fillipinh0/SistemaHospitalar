@@ -12,3 +12,17 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+a.logout{  
+    color:  var(--white);
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary_color);
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--titulo_leito_livre);
+}

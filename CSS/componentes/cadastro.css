@@ -1,26 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, rgba(2,0,3,1)32%, rgba(9,121,80,1)100%, rgba(0,212,255,1) 12%);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container {
+.container_cadastro {
     background-color: #1e272f;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 50px 20px;
+    padding: 30px 20px 40px 20px;
     border-radius: 8px;
     width: 60%;
     text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: #4CAF50;
 }
 
 .form-group {
@@ -54,23 +38,9 @@ label {
     
 }
 
-/* input[type="text"],
-input[type="number"],
-input[type="date"],
+
 select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    box-sizing: border-box;
-}*/
-.logout {
-margin-right: 100%;
-color: white;
-}
-select {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .btn-submit {
@@ -102,16 +72,7 @@ select {
     transition-duration: .4s;
 }
 
-.form-footer {
-    text-align: center;
-    margin-top: 20px;
-}
 
-.form-footer a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.form-footer a:hover {
-    text-decoration: underline;
+.logout_cadastro{
+    margin-right: 97% ;
 }

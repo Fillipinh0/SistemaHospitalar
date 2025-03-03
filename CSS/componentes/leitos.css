@@ -1,24 +1,8 @@
-.logout {
-    margin-right: 100%;
-    color: white;
-    }
-    body {
-        font-family: Arial, sans-serif;
-        background: linear-gradient(90deg, rgba(2,0,3,1)32%, rgba(9,121,80,1)100%, rgba(0,212,255,1) 12%);
-        margin: 0;
-        padding: 0;
-    }
-
     .container {
         width: 80%;
         margin: 0 auto;
         padding-top: 30px;
-        background: #1e272f;
-    }
-
-    h1 {
-        text-align: center;
-        color: #4CAF50;
+        background: var(--fundo_container);
     }
 
     .leito-status {
@@ -32,7 +16,7 @@
     }
 
     .leito-status h2 {
-        color: #ffff;
+        color: var(--white);
         text-align: center;
     }
 
@@ -42,7 +26,7 @@
     }
 
     .leito {
-        background-color: #fff;
+        background-color: var(--white);
         border: 1px solid #ddd;
         border-radius: 8px;
         margin-bottom: 10px;
@@ -52,30 +36,30 @@
 
     .leito h3 {
         margin: 0;
-        color: #4CAF50;
+        color: var(--titulo_leito_livre);
     }
 
     .leito p {
         margin: 5px 0;
-        color: #555;
+        color: var(--color-detalhes);
     }
 
     .leito-ocupado {
-        background-color: #ffdddd;
+        background-color: var(--leito_ocupado);
         margin-left: 25px;
     }
 
     .leito-disponivel {
-        background-color: #ddffdd;
+        background-color: var(--leito_livre);
         margin-right: 25px;
     }
 
     .leito-ocupado h3 {
-        color: #ff3d3d;
+        color: var(--titulo_leito_ocupado);
     }
 
     .leito-disponivel h3 {
-        color: #3dff3d;
+        color: var(--titulo_leito_livre);
     }
 
     .leito-ocupado p, .leito-disponivel p {
@@ -83,8 +67,8 @@
     }
 
     .btn {
-        background-color: #4CAF50;
-        color: white;
+        background-color: var(--titulo_leito_livre);
+        color: var(--white);
         padding: 8px 12px;
         border: none;
         border-radius: 5px;
@@ -97,10 +81,14 @@
 
     .btn:hover {
         transform: scale(1.1);
-        background-color: #45a049;
+        background-color: var(--primary_color);
     }
   
     .btn:active{
         transform: translate(3px, 3px);
         transition: .4s;
+    }
+
+    .logout_leitos {
+        margin-left: 1.5%;
     }
